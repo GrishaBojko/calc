@@ -7,6 +7,9 @@
 html,body{
     height: 100%;
 }
+body{
+    background: rgb(154, 230, 154);
+}
 
 .input-1{
     width: 15vw;
@@ -60,8 +63,7 @@ form{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100%;
-    background: rgb(154, 230, 154);
+    margin-top: 5vw;
     justify-content: space-around;
     
 }
@@ -79,7 +81,7 @@ button{
 }
 
 .footering{
-  
+    margin-top: 3vw;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -168,8 +170,8 @@ button{
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 100%;
-        background: rgb(154, 230, 154);
+        margin-top: 5vw;
+      
         justify-content: space-around;
         
     }
@@ -269,7 +271,7 @@ button{
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 100%;
+        margin-top: 5vw;
         background: rgb(154, 230, 154);
         justify-content: space-around;
         
@@ -371,7 +373,7 @@ button{
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 100%;
+        margin-top: 5vw;
         background: rgb(154, 230, 154);
         justify-content: space-around;
         
@@ -473,8 +475,7 @@ button{
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 100%;
-        background: rgb(154, 230, 154);
+        margin-top: 5vw;
         justify-content: space-around;
         
     }
