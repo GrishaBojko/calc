@@ -58,7 +58,7 @@ let del = document.querySelector(".del")
 
 let minus = document.querySelector(".minus")
 
-let result = document.querySelector(".result")
+let result = document.querySelector("input.result")
 
 function roughScale(x, base) {
     const parsed = parseInt(x, base);
@@ -70,7 +70,7 @@ function roughScale(x, base) {
 plus.onclick  = function(){
     button.onclick = function (){
 
-    result.innerHTML =roughScale(input1.value)+roughScale(input2.value)
+    result.value =roughScale(input1.value)+roughScale(input2.value)
 }
 }
 
@@ -78,7 +78,7 @@ minus.onclick  = function(){
 
     button.onclick = function (){
 
-    result.innerHTML =roughScale(input1.value)-roughScale(input2.value)
+    result.value =roughScale(input1.value)-roughScale(input2.value)
 }
 }
 
@@ -86,7 +86,7 @@ del.onclick  = function(){
 
     button.onclick = function (){
 
-    result.innerHTML =roughScale(input1.value)/roughScale(input2.value)
+    result.value =roughScale(input1.value)/roughScale(input2.value)
 }
 }
 
@@ -94,7 +94,7 @@ umno.onclick  = function(){
 
     button.onclick = function (){
 
-    result.innerHTML =roughScale(input1.value)*roughScale(input2.value)
+    result.value =roughScale(input1.value)*roughScale(input2.value)
 }
 }
 

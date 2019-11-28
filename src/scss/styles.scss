@@ -20,6 +20,8 @@ body{
     background: none;
     outline:none;
     color: white;
+    box-sizing: border-box;
+    padding-left: 2vw;
 }
 
 
@@ -32,6 +34,8 @@ body{
     background: none;
     outline:none;
     color: white;
+    box-sizing: border-box;
+    padding-left: 2vw;
 }
 
 .button{
@@ -96,6 +100,8 @@ button{
     border: 0.2vw solid white;
     font-size: 2.5em;
     color: white;
+    box-sizing: border-box;
+    padding-left: 2vw;
 }
 
 .go{
@@ -127,6 +133,8 @@ button{
         background: none;
         outline:none;
         color: white;
+        box-sizing: border-box;
+        padding-left: 2vw;
     }
     
     
@@ -138,6 +146,8 @@ button{
         margin-top: 5vh;
         background: none;
         outline:none;
+        box-sizing: border-box;
+        padding-left: 2vw;
         color: white;
     }
     
@@ -200,6 +210,8 @@ button{
         border: 0.2vw solid white;
         font-size: 2.5em;
         color: white;
+        box-sizing: border-box;
+        padding-left: 2vw;
     }
     
     .go{
@@ -228,6 +240,8 @@ button{
         background: none;
         outline:none;
         color: white;
+        box-sizing: border-box;
+        padding-left: 2vw;
     }
     
     
@@ -239,6 +253,8 @@ button{
         margin-top: 5vh;
         background: none;
         outline:none;
+        box-sizing: border-box;
+        padding-left: 2vw;
         color: white;
     }
     
@@ -301,6 +317,8 @@ button{
         border: 0.2vw solid white;
         font-size: 2.5em;
         color: white;
+        box-sizing: border-box;
+        padding-left: 2vw;
     }
     
     .go{
@@ -319,7 +337,8 @@ button{
   
   @media (max-width: 767px) { 
     .input-1{
-
+        box-sizing: border-box;
+        padding-left: 2vw;
         width: 40vw;
         height: 10vh;
         font-size: 2em;
@@ -342,6 +361,8 @@ button{
         background: none;
         outline:none;
         color: white;
+        box-sizing: border-box;
+        padding-left: 2vw;
     }
     
     .button{
@@ -403,6 +424,8 @@ button{
         border: 0.2vw solid white;
         font-size: 2.5em;
         color: white;
+        box-sizing: border-box;
+        padding-left: 2vw;
     }
     
     .go{
@@ -506,6 +529,8 @@ button{
         font-size: 2.5em;
         color: white;
         margin-top: 10vw;
+        box-sizing: border-box;
+        padding-left: 2vw;
     }
     
     .go{
